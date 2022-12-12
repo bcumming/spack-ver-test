@@ -4,3 +4,5 @@ project(spackversiontest VERSION 1.0 LANGUAGES C)
 
 add_executable(main main.c)
 
+install(TARGETS main)
+
